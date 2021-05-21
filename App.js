@@ -1,22 +1,23 @@
 import { StatusBar } from 'expo-status-bar';
 import React from 'react';
-import { StyleSheet, SafeAreaView } from 'react-native';
+import { StyleSheet, View } from 'react-native';
 import { dados } from './dados/dados';
 
 import { Home } from  './components/Home';
 
 export default function App() {
   return (
-    <SafeAreaView style={styles.container}>
+    <View style={styles.container}>
       <Home dados={dados} />
       <StatusBar style="auto" />
-    </SafeAreaView>
+    </View>
   );
 }
 
 const styles = StyleSheet.create({
   container: {
     flex: 1,
+    marginTop: 45,
     backgroundColor: '#fff',
     alignItems: 'center',
     justifyContent: 'center',

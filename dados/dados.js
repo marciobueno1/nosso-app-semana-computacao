@@ -19,10 +19,23 @@ export const dados = [
         data: [
             {
                 local: 'Empresa A', 
-                descricao: lorem.generateParagraphs(3)
+                descricao: lorem.generateParagraphs(15)
             },
             {
                 local: lorem.generateWords(3),
+                descricao: lorem.generateParagraphs(3)
+            },
+        ],
+    },
+    {
+        title: 'Hobbies',
+        data: [
+            {
+                local: 'Escalar montanhas', 
+                descricao: lorem.generateParagraphs(3)
+            },
+            {
+                local: 'Jogar boliche',
                 descricao: lorem.generateParagraphs(3)
             },
         ],

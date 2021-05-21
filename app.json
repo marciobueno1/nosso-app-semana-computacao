@@ -1,7 +1,7 @@
 {
   "expo": {
-    "name": "meu-app",
-    "slug": "meu-app",
+    "name": "nosso-app-semana-computacao",
+    "slug": "nosso-app-semana-computacao",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
@@ -22,7 +22,7 @@
     "android": {
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptive-icon.png",
-        "backgroundColor": "#FFFFFF"
+        "backgroundColor": "#008689"
       }
     },
     "web": {
